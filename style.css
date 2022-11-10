@@ -43,6 +43,7 @@ header{
     margin-right: 40px;
     border-radius: 8px 8px 0px 0px;
     color: var(--cor4);
+    
 
 }
 header > nav{
@@ -130,8 +131,9 @@ main{
     background-color: var(--cor0);
     margin-left: 40px;
     margin-right: 40px;
-    
-    color: var(--cor4);
+     color: var(--cor4);
+     top:-360px;
+     position: relative;
    
 }
 main > img{
@@ -146,7 +148,8 @@ main > h2{
 main > ul {
     font-family:'Nofancy',Arial, Helvetica, sans-serif;
     margin-left: 700px;
-    margin-top: -50px;
+    top: -300px;
+    position: relative;
 }
 main > ul > li{
     padding: 10px;
@@ -162,7 +165,7 @@ height: 50px;
 border-radius: 5px;
 position: relative;
 margin-left: 700px;
-top:-310px;
+top:-250px;
 
 }
 main > button > a{
@@ -178,7 +181,9 @@ section#what{
     margin-left: 40px;
     margin-right: 40px;
     color: var(--cor4);
-    height: 450px; 
+    position: relative;
+    top: -500px;
+    height: 500px;
 }
 
 section#what > p{
@@ -240,6 +245,9 @@ section#projects{
     margin-left: 40px;
     margin-right: 40px;
     color: var(--cor4);
+    position: relative;
+    top: -500px;
+    
    
 }
 section#projects > h2{
@@ -247,11 +255,10 @@ section#projects > h2{
     letter-spacing: 1.5px;
     font-size: 2.5em;
     font-weight: bold;
-}
-section#projects > h2{
-text-align: center;
+    text-align: center;
 
 }
+
 section#projects > p{
     color:#7F7C87;
     text-align: center;
@@ -320,6 +327,8 @@ background-color: var(--cor0);
 margin-left: 40px;
 margin-right: 40px;
 color: var(--cor4);
+position: relative;
+top: -500px;
 }
 section#contact > h2{
     font-size: 2.5em;
@@ -331,12 +340,12 @@ section#contact > h2{
 section#contact > p{
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 20px;
     color: #7F7C87;
     font-size: 1.3em;
-}
-section#contact > ul#info{
 
 }
+
 section#contact > ul#info > li{
     list-style: none;
     font-size: 1.5em;
@@ -345,7 +354,7 @@ section#contact > ul#info > li{
     left: 200px;
 }
 section#contact > ul#info2{
-
+margin-top: -260px;
 }
 section#contact >ul#info2 > li{
     list-style: none;
@@ -353,29 +362,118 @@ section#contact >ul#info2 > li{
     position: relative;
     left: 400px;
     color: #7F7C87;
+    padding: 20px;
 }
+section#contact >button{
+    background-color: var(--cor3);
+border: none;
+width: 200px;
+height: 50px;
+border-radius: 5px;
+position: relative;
+margin-left: 800px;
+top:-290px;
 
+}
+section#contact >button >a{
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+section#contact > ul#input{
+    list-style: none;
+    font-size: 1.5em;
+    padding: 20px;
+    position: relative;
+    margin-left: 700px;
+    top: -290px;
+}
+section#contact > ul#input > li{
+padding: 15px;
+}
+input{
+    width: 300px;
+   height: 30px;
+   padding: 10px;
+   background-color: #2A2845;
+   border: 1px solid white;
+   border-radius: 5px;
+   font-family: 'Nofancy',Arial, Helvetica, sans-serif;
+   font-size: 20px;
 
+}
 
 section#project{
     font-family:'Nofancy',Arial, Helvetica, sans-serif;
-   
     background-color: var(--cor2);
     margin-left: 40px;
     margin-right: 40px;
     color: var(--cor4);
     height: 450px;
+    position: relative;
+    top: -500px;
+}
+section#project > img {
+    border-radius: 50%;
+    position: relative;
+    margin-left: 1100px;
+    top: 40px;
+}
+section#project >h2{
+    position: relative;
+    font-size: 1.9em;
+    font-weight: bolder;
+    text-align: center;
+    top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#project > p{
+    text-align: center;
+    top: 100px;
+    position: relative;
+    color: #7F7C87;
+    font-size: 1.3em;
+    
+}
+section#project > ul{
+    font-family:'Nofancy',Arial, Helvetica, sans-serif;
+    position: absolute;
+    display: flex;
+    padding-left: 350px;
+    padding-top:150px;
+}
+section#project > ul > li{
+list-style: none;
+font-family:'Nofancy',Arial, Helvetica, sans-serif;
+font-size: 1.5em;
+padding: 40px;
+text-align: center;
 }
 
+section#project >ul#img{
+    position: absolute;
+    padding-left: 280px;
+    padding-top:124px;
+}
+section#project >ul#img > li{
+    padding: 60px;
+    text-align: center;
+}
+section#project > ul#img > li > img{
+    border-radius: 50%;
 
+}
 footer{
     background-color: var(--cor0);
     margin-left: 40px;
-    margin-bottom: 40px;
+    margin-bottom: -300px;
     margin-right: 40px;
     border-radius: 0px 0px 8px 8px;
     color: var(--cor4);
     height: 300px;
+    position: relative;
+    top: -500px;
+
 }
 footer > ul{
     list-style: none;
@@ -401,6 +499,11 @@ footer > ul#icons{
 footer > ul#icons > li{
 padding: 10px;
 color: #7562E0;
+}
+footer> div#linha-horizontal {
+    width: 1100px;
+    border: 1px solid #7F7C87;
+    position: relative;
 }
 footer > ul#terms{
 position: absolute;
